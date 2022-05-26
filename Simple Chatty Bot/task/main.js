@@ -46,8 +46,7 @@ function test() {
 	console.log("4. To interrupt the execution of a program.");
 	let answer = Number(input());
 	if (answer === 2) {
-		return
-
+		console.log("Completed, have a nice day!");
 	}
 	else { console.log("Please, try again.");
 		test();
